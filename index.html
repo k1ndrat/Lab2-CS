@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>bobul</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="wraper">
+         <div class="main">
+            <div class="input-output">
+               <input type="text" id="number-1" />
+               <input type="text" id="number-2" />
+               <output id="multiply"></output>
+            </div>
+
+            <div class="multiply">
+               <div class="multiply-block">
+                  <div class="radio-block-title">
+                     <input
+                        type="radio"
+                        name="isDo"
+                        id="radioMultiply"
+                        value="Multiply"
+                        checked
+                     />
+                     <label for="radioMultiply">Multiply</label>
+                  </div>
+                  <div class="multiply-radiobuttons">
+                     <div class="radio-block">
+                        <input
+                           type="radio"
+                           name="multiply"
+                           id="radioMultiply1"
+                           value="1"
+                           checked
+                        />
+                        <label for="radioMultiply1">column multiply</label>
+                     </div>
+                     <div class="radio-block">
+                        <input
+                           type="radio"
+                           name="multiply"
+                           id="radioMultiply2"
+                           value="2"
+                        />
+                        <label for="radioMultiply2">bit shift right</label>
+                     </div>
+                     <div class="radio-block">
+                        <input
+                           type="radio"
+                           name="multiply"
+                           id="radioMultiply3"
+                           value="3"
+                        />
+                        <label for="radioMultiply3"
+                           >multiplier is on the right side of the
+                           register</label
+                        >
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="division">
+               <div class="division-block">
+                  <div class="radio-block-title">
+                     <input
+                        type="radio"
+                        name="isDo"
+                        id="radioDivision"
+                        value="Division"
+                     />
+                     <label for="radioDivision">Division</label>
+                  </div>
+               </div>
+            </div>
+
+            <div class="IEEE754">
+               <div class="IEEE754-block">
+                  <div class="radio-block-title">IEEE754</div>
+                  <div class="input-X1">
+                     <input maxlength="1" size="1" type="text" class="s1" />
+                     <input maxlength="8" size="8" type="text" class="E1" />
+                     <input maxlength="23" size="23" type="text" class="M1" />
+                  </div>
+                  <div class="input-X2">
+                     <input maxlength="1" size="1" type="text" class="s2" />
+                     <input maxlength="8" size="8" type="text" class="E2" />
+                     <input maxlength="23" size="23" type="text" class="M2" />
+                  </div>
+                  <div class="output-X3">
+                     <div class="s3"></div>
+                     <div class="E3"></div>
+                     <div class="M3"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/script.js"></script>
+   </body>
+</html>

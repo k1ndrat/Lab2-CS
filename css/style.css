@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+   font-size: 25px;
+   text-transform: capitalize;
+   color: rgba(57, 62, 70, 1);
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.wraper {
+   background-color: rgba(253, 112, 19, 1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   padding: 25px;
+}
+
+.main {
+   background-color: rgba(238, 238, 238, 1);
+   padding: 20px 30px;
+   box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.4);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.multiply {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.input-output {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.multiply-radiobuttons {
+   padding-left: 30px;
+}
+
+.radio-block {
+}
+
+input,
+output {
+   color: inherit;
+   font-size: inherit;
+   font-family: inherit;
+}
+
+output {
+   min-width: 250px;
+}
+
+input[type="text"] {
+   padding: 5px 10px;
+   border-radius: 5px;
+   /* color: black; */
+   outline: none;
+   border: 1px solid rgba(34, 40, 49, 1);
+}
+
+label {
+   user-select: none;
+}
+
+.IEEE754 {
+}
+.IEEE754-block {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.radio-block-title {
+}
+
+.input-X1 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.s1 {
+   flex: 0 0 9%;
+}
+
+.E1 {
+   flex: 0 0 29%;
+}
+
+.M1 {
+   flex: 0 0 59%;
+}
+
+.input-X2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.s2 {
+   flex: 0 0 9%;
+}
+
+.E2 {
+   flex: 0 0 29%;
+}
+
+.M2 {
+   flex: 0 0 59%;
+}
+
+.output-X3 {
+   display: flex;
+   justify-content: space-between;
+}
+.s3 {
+   flex: 0 0 9%;
+}
+.E3 {
+   flex: 0 0 29%;
+}
+.M3 {
+   flex: 0 0 59%;
+}
